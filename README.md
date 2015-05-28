@@ -11,6 +11,7 @@ Zooming
 * Retina devices see image tiles at 2x resolution
 * Small images (less than 1024px) appear as a static lightbox image, with similar interactions other than zoom
 * The developer provides an array of images. Each image is an array of zoom levels. Each zoom level is a 2D array of tile URLs
+* The developer provides an array with boundaries of the image. The demo contains boundaries for a square image and an image which has a greater y-dimension than x-dimension.
 
 Interaction
 * Double-click, double-tap, press spacebar, or use touch pinch to move through zoom modes

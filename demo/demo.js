@@ -33,7 +33,8 @@ var nepal = [
 var allImageTiles = [shuttle, nepal];
 
 var squareBounds = [[51.45404, -0.1758], [51.56344, 0]];
-var allZoomBounds = [squareBounds, squareBounds];
+var tallBounds = [[51.45404, -0.1758], [51.56344, -0.099]];
+var allZoomBounds = [squareBounds, tallBounds];
 
 $(function() {
   $(".owl-carousel.main-images").owlCarousel({
