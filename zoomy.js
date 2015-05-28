@@ -1,3 +1,5 @@
+//= require hammer
+
 //zoomy :)
 var fadeTimeout, zoomzoom;
 var retinaFactor = 0;
