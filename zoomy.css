@@ -32,6 +32,7 @@
   color: #fff;
   position: fixed;
   top: 0;
+  left: 0;
   width: 40px;
   height: 40px;
   z-index: 99999;
@@ -40,4 +41,41 @@
   padding-top: 20px;
   font-family: sans-serif;
   font-weight: bold;
+}
+
+.lightbox.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lightbox {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  padding: 24px;
+  padding: 2.4rem;
+}
+
+.lightbox img.main {
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
