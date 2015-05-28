@@ -37,4 +37,7 @@
   z-index: 99999;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
 }
